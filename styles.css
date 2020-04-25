@@ -101,7 +101,10 @@ Glow as it's clicked
 .green-glow {
   border: 4px solid #4dcc7d;
   box-shadow: 0 0 10px #31b43a;
+}
 
+.green-glow:hover {
+  background: #4dcc7d;
 }
 
 .red-glow {
@@ -109,7 +112,15 @@ Glow as it's clicked
   box-shadow: 0 0 10px #d01115;
 }
 
+.red-glow:hover {
+  background: #fc121b;
+}
+
 .gray-glow {
   border: 4px solid #464647;
   box-shadow: 0 0 10px #25282b;
+}
+
+.gray-glow:hover {
+  background: #464647;
 }
